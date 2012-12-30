@@ -13,3 +13,20 @@ categories:
 3.其他类型的转发
 
 <!-- more -->
+
+```
+$ sudo make me a sandwich
+```
+``` ruby Discover if a number is prime http://google.com Google
+class Fixnum
+    def prime?
+        ('1' * self) ! ~ /^1?$|^(11+?)\1+$/
+    end
+end
+```
+{% gist 996818 %}
+
+{% codeblock Javascript Array Systax lang:js%}
+
+var arr1 = new Array(2);
+{% endcodeblock%}

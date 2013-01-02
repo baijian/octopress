@@ -1,32 +1,31 @@
 ---
 layout: post
-title: "ssh_port_transmit"
+title: "SSH_Port_Forwarding"
 date: 2012-11-07 22:16
 comments: true
 categories: 
 ---
 
-1.ssh端口转发
+SSH Port Forwarding is also called SSH Tunneling
 
-2.本地转发与远程转发
+***笔记本翻墙方法***
 
-3.其他类型的转发
+ssh -DNf 1000 user@myvps.com
+    D - 动态端口转发
+    N - 不需要shell
+    f - 后台执行
+然后浏览器设置一个SOCKS代理(可以使用chrome-SwitchySharp)，做个过滤就可以上facebook等网站了.
 
-<!-- more -->
+***手机翻墙方法***
 
-```
-$ sudo make me a sandwich
-```
-``` ruby Discover if a number is prime http://google.com Google
-class Fixnum
-    def prime?
-        ('1' * self) ! ~ /^1?$|^(11+?)\1+$/
-    end
-end
-```
-{% gist 996818 %}
+以前我在vps上架了个vpn服务，然后手机链上去翻墙，后来换了vps，也就懒得架
+vpn了，然后上网找了个android的应用程序，可以通过上面一样的方法来翻墙.
 
-{% codeblock Javascript Array Systax lang:js%}
+下载地址:<a href="/sshtunnel-1.8.1beta.apk">sshtunnel-1.8.1beta.apk</a>
 
-var arr1 = new Array(2);
-{% endcodeblock%}
+<!-- more-->
+原理下面这两个链接讲的很清楚 ^-^
+<a target="_blank" href="https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/">https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/<a>
+<a target="_blank" href="http://blog.jianingy.com/2009/09/ssh隧道技术简介/">SSH隧道技术简介</a>
+
+

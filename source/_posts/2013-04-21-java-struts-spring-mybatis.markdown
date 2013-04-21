@@ -17,7 +17,7 @@ Integrate java struts, spring and mybatis framework in project.
 
 ###Demo
 * 1.Spring Demo ```github.com/baijian/java-ssb-demo/spring```
-* 2.struts2 Demo ```github.com/baijian/java-ssb-demo/struts2
+* 2.struts2 Demo ```github.com/baijian/java-ssb-demo/struts2```
 * 3.Mybatis Demo ```github.com/baijian/java-ssb-demo/mybatis```
 * 4.Integration of three ```...```
 

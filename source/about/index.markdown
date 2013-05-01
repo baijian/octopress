@@ -5,14 +5,18 @@ comments: true
 sharing: true
 footer: true
 ---
-![baijian](../favicon.png "It is me!")
+<a href="http://about.me/baijian">![baijian](../favicon.png "It is me!")</a>
 
 Name: baijian
 
 Sex: male
 
-Company: AnjukeInc(2012-07---now)
+Company: AnjukeInc(2012-03---2013-04)
 
 Position: PHP Developer
+
+Company: XiaoCongNetwork
+
+Position: JAVA Developer(2013-04---now)
 
 

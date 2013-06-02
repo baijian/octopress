@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 nginx的location配置:<br/>
-I recommend that you should learn the configuration from website: <a href="http://nginx.org/en/docs/http/ngx_core_module.html#location">nginx.org/en/dosc/</a>,
+I recommend that you should learn the configuration from website: <a href="http://nginx.org/en/docs/http/ngx_core_module.html#location">nginx.org/en/docs/</a>,
   It is accurate and clear, of course It is in english.<br/>
 If you do not want to read english doc, you can learn from my opinion below:
 <!-- more -->

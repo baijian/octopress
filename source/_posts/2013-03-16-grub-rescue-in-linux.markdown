@@ -46,5 +46,15 @@ Then boot your system again:
     grub rescue> boot
 ```
 
-OK, that's all, may be you can start your linux system, into the system, you can fix your grub.
-........
+OK, that's all, may be you can start your linux system, into the system, you can fix your grub
+confis maybe /boot/grub/grub.cfg or /boot/grub/grub.conf.
+
+因为平时喜欢瞎折腾，改改配置啥的，很有可能会改错导致启动不了，记得又一次改了XWindow的
+什么配置，然后启动不了了，难道要重装？当然不必要，只要你有一个linux的Desktop系统
+就行，也就是一个微型版的linux系统啦，当然你可以自己制作一个，也可以自己刻录一个，
+我是随身携带一个gentoo的u盘系统，一个是喜欢折腾gentoo随时需要装gentoo玩玩，还有就是
+linux系统一被我改错文件了可以用u启动起来然后再挂载磁盘然后再将改错的内容改回去,哈哈～
+
+
+
+

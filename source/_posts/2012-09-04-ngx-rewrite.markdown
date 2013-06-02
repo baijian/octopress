@@ -6,6 +6,8 @@ comments: true
 categories: 
 ---
 ###nginx的rewrite使用介绍(ngx\_http\_rewrite\_module):
+建议直接看官方文档^-^:<a href="http://nginx.org/en/docs/http/ngx_http_rewrite_module.html">ngx_http_rewrite_module</a>
+
 nginx的rewrite模块包括:break,if,return,rewrite,rewrite\_log,set,uninitialized\_variable\_warn这个几个指令.
 nginx的rewrite模块使得你可以通过正则表达式匹配、return redirect、条件选择配置来改变URIs.
 
@@ -32,10 +34,11 @@ nginx的rewrite模块使得你可以通过正则表达式匹配、return redirec
     * permanent : 返回一个永久跳转(http code 301)
 
 
-1.break指令(server,location,if)
+3.break指令(server,location,if)
     stops processing the current set of ngx_http_rewrite_module directives.
     停止处理当前rewrite模块指令的设置
-2.if指令(server,location)
+
+4.if指令(server,location)
     if(condition){...}
     condition:
         * variable name false: empty string, any string start with "0"
@@ -45,13 +48,5 @@ nginx的rewrite模块使得你可以通过正则表达式匹配、return redirec
         * check directory "-d" "!-d"
         * "-e" "!-e" check a file,directory,or a symbolic
         * "-x" "!-x" check for executable file
-3.
-4.
-5.rewrite\_log指令(http,server,location,if)
-    
-6.set指令(server,location,if)
-7.uninitialized\_variable\_warn指令(http,server,location,if)
-
-    
 
 

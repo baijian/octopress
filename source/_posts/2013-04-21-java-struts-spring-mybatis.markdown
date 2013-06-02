@@ -80,5 +80,5 @@ interfaces in defined for MyBatis to configure as Spring Beans, then you can get
 of UserMapper using @Autowired annotation, you do not have to implement the interface
 as mybatis will provide porxy implementation for this, so conventient~
 
-<a href="http://www.github.com/baijian/java-ssi-demo">MyDemoProject</a>
+<a href="https://www.github.com/baijian/java-ssi-demo/">MyDemoProject</a>
 

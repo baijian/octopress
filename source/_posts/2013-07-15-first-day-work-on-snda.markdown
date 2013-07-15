@@ -12,6 +12,8 @@ system instead of windows which is always egg ache.
 Ok, begin my reinstall process, I insert my Ubuntu LiveCD, and reboot then enter BIOS, modify 
 boot order, then save and boot.
 
+<!-- more -->
+
 After a while, I will get a install view, but I just got a black screen. I have realized that it must
 be a graphics problem, then I go to ubuntu for help,Then I find the solution:
 

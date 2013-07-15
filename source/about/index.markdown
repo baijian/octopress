@@ -17,6 +17,8 @@ Position: PHP Developer
 
 Company: XiaoCongNetwork
 
-Position: JAVA Developer(2013-04---now)
+Position: JAVA Developer(2013-04---2013-07)
 
+Company: ShengDa Network
 
+Position: PHP Developer(2013-07-15---now)

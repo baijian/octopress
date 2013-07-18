@@ -21,7 +21,7 @@ categories:
 ###2. 以HTTP方式共享当前文件夹的文件
     $ python -m SimpleHTTPServer
 
-这命令启动了Python的SimpleHTTPServer模块，命令执行后将在本机8000端口开放HTTP服务，在其他能访问本机的机器的浏览器打开http://ip:8000即打开一个目录列表，点击即可下载。
+这命令启动了Python的SimpleHTTPServer模块，命令执行后将在本机8000端口开放HTTP服务，在其他能访问本机的机器的浏览器打开[http://localhost:8000](http://ip:8000) 即打开一个目录列表，点击即可下载。
 
 额外的:用 python 快速开启一个`SMTP`服务
 

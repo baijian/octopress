@@ -1,8 +1,7 @@
 ---
 layout: page
-title: ""
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 <a href="http://about.me/baijian">![baijian](../favicon.png "It is me!")</a>
@@ -11,20 +10,11 @@ footer: true
 
 #### Sex: male
 
-```text
-Company: AnjukeInc(2012-03---2013-04)
+#### Work Experience
+    * PHP Developer @ AnjukeInc(2012-03---2013-04)
 
-Position: PHP Developer
-```
+    * JAVA Developer @ XiaoCongNetwork(2013-04---2013-07)
 
-```text
-Company: XiaoCongNetwork
+    * PHP Developer @ SNDA(2013-07-15---now)
 
-Position: JAVA Developer(2013-04---2013-07)
-```
-
-```text
-Company: SNDA 
-
-Position: PHP Developer(2013-07-15---now)
-```
+#### Email: jian.baij@gmail.com

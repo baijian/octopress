@@ -4,7 +4,6 @@ layout: default
 
 <div class="blog-index">
   {% assign index = true %}
-  
   <div class="pagination">
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
@@ -22,4 +21,3 @@ layout: default
     {% include_array default_asides %}
   {% endif %}
 </aside>
-

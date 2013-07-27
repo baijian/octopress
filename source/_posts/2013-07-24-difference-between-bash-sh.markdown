@@ -92,3 +92,7 @@ Bash的POSIX Mode,我也不是很明白这个模式，因为我一般写shell脚
 
 不会读取任何startup文件.
 
+
+** End **
+
+At last Recommend a web address: [About Bash](http://www.gnu.org/software/bash/manual/bashref.html)

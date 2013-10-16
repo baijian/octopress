@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Git Introduce</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="baijian.jpg" />
+    <link rel="apple-touch-icon" href="baijian.jpg" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>What is <b>GIT</b>?</q>
+        <p>Git is not subversion...</p><br/>
+        <p>Git is a content-addressable filesystem which is a very powerful tool that you can easily use as more than just a VCS.</p>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+    <!--
+        <q>The opinions of <i>Linus Torvalds</i> on GIT and SCM:</q>
+        <h3>* If you like using CVS, you should be in some kind of mental institution or somewhere else...</h3>
+        <h3>* Subversion has been the most pointless project ever started...</h3>
+        <br/>
+        -->
+        <img style="margin-left:80px;" src="./git-pics/LinusTorvalds-2.jpg" />
+        <h3>Now</h3>
+        <b style="color:red"><a href="http://github.com">github.com</a></b><br/>
+        <p> is the best and cool SCM system, it is very very popular.</p>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>Some features of <b>GIT</b></q><br/>
+        <p>* 1.Every project is a entire git repository and every client have all of the codes.</p><br/>
+        <p>* 2.Fast and simple local branch(just a pointer), ofcourse it will save storage.</p><br/>
+        <p>* 3.Develop your project without network(distributed).</p>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">Now let's try to</span>
+        <h1>use Git</h1>
+        <span class="footnote"><sup>*</sup>How to use git?</span>
+    </div>
+
+    <div class="step slide" data-x="3000" data-y="-1500">
+        <q>How to install?<a href="http://help.github.com/set-up-git-redirect">install guide</a></q><br/>
+        <p><b>CentOS</b></p>
+        <p style="margin-left:20px;">yum install git</p>
+        <p><b>Ubuntu</b></p>
+        <p style="margin-left:20px;">sudo apt-get install git</p>
+        <p><b>Mac</b></p>
+        <p style="margin-left:20px;">brew install git</p>
+        <p><b>Windows?</b></p>
+        <p style="margin-left:20px;">Please do not use windows <font color="red">^-^</font></p>
+    </div>
+    <div class="step slide" data-x="4000" data-y="-1500">
+        <q>How to config?</q><br/>
+        <p>ssh-keygen -t rsa -C "baijian@meiyugames.com"</p><br/>
+        <p>git config --global user.name "柏健"</p><br/>
+        <p>git config --global user.email "baijian@meiyugames.com"</p><br/>
+        <p>git config --global color.ui true</p>
+    </div>
+    <div class="step slide" data-x="5000" data-y="-1500">
+        <h1><b>Init your first project:</b></h1>
+        <p style="margin-left:15px;">mkdir demo & cd demo</p>
+        <p style="margin-left:15px;">git init</p>
+        <p style="margin-left:15px;">touch test.txt</p>
+        <p style="margin-left:15px;">git add test.txt</p>
+        <p style="margin-left:15px;">git commit -m "add test file"</p>
+        <img style="margin-left:50px;" src="git-operations.jpg" />
+    </div>
+    <div class="step slide" data-x="6000" data-y="-1500">
+        <h1><b>Push your code to the central server:</b></h1>
+        <p>git remote add origin git@github.com:baijian/demo.git</p>
+        <p>git push origin master</p>
+        <img src="git-central.jpg" />
+    </div>
+    <div class="step slide" data-x="7000" data-y="-1500">
+        <h1><b>Update your project and modify.</b></h1><br/>
+        <p>git pull origin master</p>
+        <p>git status</p>
+        <p>git add test2.txt</p>
+        <p>git commit -m "add test2 file"</p>
+        <p>git push origin master</p><br/>
+        <img src="git-diff.jpg" />
+    </div>
+    <div class="step slide" data-x="8000" data-y="-1500">
+        <h1><b>How to view the modification history?</b></h1><br/>
+        <p>git log --graph</p><br/>
+        <img src="git-log.jpg" />
+    </div>
+    <div class="step slide" data-x="9000" data-y="-1500">
+        <q>How to exclude some files?</q><br/>
+        <p>just add a file called .gitignore</p><br/>
+        <img style="padding-left:250px;" src="git-ignore.jpg" />
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="5000" data-rotate="90" data-scale="5">
+        <q>How to do teamwork with git?</q>
+        <img style="padding-left:100px;" src="git-branch-corp.jpg" />
+        <p>In git, the cost of adding a branch is less than svn, so you can use branch anytime you want.</p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>At last, how <b>git</b> works</p>
+        <i style="font-size:20px">(plumbing and porcelain commands)</i>
+    </div>
+
+    <div class="step slide" data-x="12000" data-y="-1500">
+        <q>Understand objects in git.</q>
+        <img src="git-objects.jpg" />
+        <p>tree blob commit tag</p>
+    </div>
+
+    <div class="step slide" data-x="13000" data-y="-1500">
+        <h1><b>GIT_DIR .git</b></h1><br/>
+        <img src="git-dir.jpg" /><br/>
+        <p>objects directory stores all the content for your database.(git objects)</p><br/>
+        <p>index file stores your staging area information.</p><br/>
+        <p>refs directory stores pointers into commit objects.(git references)</p><br/>
+        <p>HEAD file points to the current branch you are in.</p><br/>
+    </div>
+
+    <div class="step slide" data-x="14000" data-y="-1500">
+        <q>How objects are stored?</q><br/>
+        <img src="blob-2.jpg" />
+    </div>
+
+    <div class="step slide" data-x="15000" data-y="-1500">
+        <q>How to write codes?</q><br/>
+        <pre><code>
+            header = type + ' ' + content.size + \0
+            body = content
+            new_content = header + body
+            sha = Digest::SHA1.hexdigest(new_content)
+            compressed = zlib::deflate(new_content)
+            path = ".git/objects/82/4aed...."
+            File.open(path, 'w') {|f| f.write(compressed)}
+            </code>
+        </pre>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="1000" data-scale="6">
+        <p>We <b>have</b><b class="imagination"><a href="http://snda.github.io">blog</a></b> now, and do you know <a href="http://octopress.org">OCTOPRESS</a>?</p>
+        <font size="5px;" color="red"><a href="https://github.com/snda/snda.github.io">BlogSourceCode</a></font>
+    </div>
+
+    <div class="step" data-x="6300" data-y="3500" data-rotate="20" data-scale="4">
+        <p>You should know what is markdown, and learn to write markdown file.</p>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4500" data-scale="2">
+        <p>how to write our blog together?</p>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="6200" data-y="5300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">ofcourse</span> <span class="you">use</span> <span class="noticed">git</span> <span class="its">and</span> <span class="in">each</span> <b>one's<sup> github </sup></b> account!</p>
+        <span class="footnote">* let's enjoy it ;)</span><a href="https://github.com/snda/snda.github.io/blob/source/README.markdown">README</a>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p style="padding-left:360px;">----baijian 2013-08-09</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
